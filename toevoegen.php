@@ -35,6 +35,18 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 			// Er is niks geselecteerd
 			$userErrors[] = 'U heeft geen eind tijd gekozen';
 		}
+		function timeDiff($firstTime,$lastTime) {
+		    $firstTime=strtotime($firstTime);
+		    $lastTime=strtotime($lastTime);
+		    $timeDiff=$lastTime-$firstTime;
+		    return ($timeDiff / 60) /60;
+		}
+		
+		if(timeDiff($_POST['van'], $_POST['tot']) > 4) {
+
+			$userErrors[] = 'U mag niet meer dan 4 uur achter elkaar wassen.';
+
+		}
 
 		if (count($userErrors) === 0) {
 			// Er zit niks in $userErrors en dus is alles goed
