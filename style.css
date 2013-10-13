@@ -1,0 +1,346 @@
+body{
+
+
+
+}
+
+
+
+#wrapper{
+
+border:0px solid black;
+width:auto;
+position:absolute;
+height:auto;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+
+
+}
+#menu {
+
+width:220px;
+margin-left:9px;
+border-radius:10px;
+height:60px;
+border:1px solid black;
+margin-top:170px;
+background-color:black;
+}
+#gereedschappen {
+
+width:140px;
+margin-left:9px;
+border-radius:10px;
+height:60px;
+border:1px solid black;
+margin-top:20px;
+background-color:black;
+}
+#gereedschappen span{
+
+font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+ font-size:17px;
+ color:white;
+ margin-left:15px;
+ cursor:default;
+
+}
+#menu span{
+
+font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+ font-size:17px;
+ color:white;
+ margin-left:50px;
+ cursor:default;
+
+}
+#menu ul span{
+font-size:12px;
+margin-left:0px;
+}
+#gereedschappen ul span{
+font-size:12px;
+margin-left:0px;
+}
+#menu ul{padding-left:10px;margin-top:7px;}
+#menu ul li{
+font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+ font-size:14px;
+ list-style-type: none;
+ display:inline-block;
+
+}
+#menu ul li a{text-decoration:none; color:#00FF99;}
+#menu ul li a:hover{color:#FF0066;}
+
+#gereedschappen ul{padding-left:10px;margin-top:7px;}
+#gereedschappen ul li{
+font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+ font-size:14px;
+ list-style-type: none;
+ display:inline-block;
+  margin-left:20px;
+
+}
+#gereedschappen ul li a{text-decoration:none; color:#00FF99;}
+#gereedschappen ul li a:hover{color:#FF0066;}
+
+#robijntje{
+
+border:0px solid black;
+width:200px;
+height:204px;
+margin-left:15px;
+margin-top:30px;
+background-image:url('robijntje.jpg');
+box-shadow: 0px 0px 15px #00FF99;
+border-radius:12px;
+cursor:pointer;
+}
+[title]
+{
+color:blue;
+}
+#robijntje:hover{
+box-shadow: 0px 0px 15px #FF0066;
+}
+#misc{
+margin-left:12px;
+margin-top:15px;
+font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+ font-size:13px;
+ cursor:default;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+
+}
+
+#wlijstkader{
+position:absolute;
+
+width:240px;
+height:700px;
+background-color:#1874CD;
+
+float:left;
+
+}
+#overzicht{
+position:absolute;
+margin-left:240px;
+float:left;
+border:0px solid black;
+width:1200px;
+height:auto;
+background-color:#F5F5F5;
+}
+#overzicht1{
+margin-left:240px;
+
+}
+#melding{
+
+border:0px solid black;
+width:100px;
+height:30px;
+color:#7CFC00;
+position:absolute;
+font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+ font-size:15px;
+font-weight:bold;
+margin-left:141px;
+margin-top:152px;
+cursor:default;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+
+
+}
+#melding4uur{
+
+border:0px solid black;
+width:100px;
+height:30px;
+color:#FF0000;
+position:absolute;
+font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+ font-size:13px;
+font-weight:bold;
+margin-left:138px;
+margin-top:145px;
+cursor:default;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+
+
+}
+.striped{
+
+border:0px solid black;
+width:100%;
+height:700px;
+border-collapse:collapse;
+
+float:left;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+cursor:default;
+
+
+}
+
+.header{
+font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+ font-size:15px;
+font-weight:bold;
+background-color:#C7C7C7;
+
+}
+table, td, th{
+
+
+}
+th{
+background-color:gray;
+color:white;
+}
+
+td{
+border:1px solid black;
+font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+ font-size:13px;
+ text-align:center;
+
+}
+
+#a {
+text-align:left;
+padding-left:5px;
+
+}
+#a_datum{
+text-align:left;
+padding-left:5px;
+
+}
+#a:hover{
+color:red;
+}
+
+
+#title{
+font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+font-size:30px;
+margin-left:10px;
+color:white;
+}
+
+#formkader{
+margin-top:10px;
+float:left;
+
+}
+#name_label{
+margin-left:10px;
+font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+font-size:17px;
+
+}
+#name_label_v{
+margin-left:20px;
+font:17px;
+font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+
+}
+#name_label_t{
+margin-left:1px;
+font-size:17px;
+font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+#naamveld{
+margin-left:10px;
+font-size:20px;
+font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;}
+#tijdveld1{font-size:17px;margin-left:10px; font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;}
+#tijdveld2{font-siZe:17px; font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;}
+#voegknop{font-size:19px;font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;margin-left:10px;margin-top:6px;-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;}
+#dag{font-size:15px;font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;}
+#maand{font-size:15px;font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;margin-left:10px;  }
+
+
+
+#opmerkingen{
+
+border:1px solid black;
+position:absolute;
+width:450px;
+height:300px;
+margin-top:120px;
+margin-left:350px;
+background-color:white;
+z-index:1;
+border-radius:10px;
+display:none;
+}
+#close_o{
+border:1px solid red;
+width:20px;
+height:20px;
+background-color:red;
+float:right;
+cursor:pointer;
+border-bottom-left-radius:10px;
+border-top-right-radius:10px;
+opacity:0.6;
+
+}
+#close_o:hover{
+
+opacity:1.0;
+
+}
+#close_o span{
+text-align:center;
+margin-left:5px;
+font-weight:bold;
+cursor:pointer;
+font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+#verwijderknop {
+	color: #00FF99;
+	background: none;
+	border: none;
+}
+
+#verwijderknop:hover{
+	color: #FF0066;
+	cursor: pointer;
+
+}
