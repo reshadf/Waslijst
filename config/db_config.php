@@ -5,6 +5,6 @@
 */
 
 $host = 'localhost';
-$user = 'root';
-$passwd = 'Playstation3';
+$user = ''; // credentials username
+$passwd = ''; // credentials password
 $database = 'waslijst';
