@@ -56,8 +56,8 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 			// aanpassen (alles met $_). Het gebruik van MySQLi::escape_string() zonder het
 			// gebruik van quotes in de query is nog steeds niet goed.
 
-			$startDateTime = '2013'. '-' .$_POST['maand']. '-' .$_POST['dag']. ' ' .$_POST['van'].':00';
-			$endDateTime = '2013'. '-' .$_POST['maand']. '-' .$_POST['dag']. ' ' .$_POST['tot'].':00';
+			$startDateTime = date('Y') . '-' .$_POST['maand']. '-' .$_POST['dag']. ' ' .$_POST['van'].':00';
+			$endDateTime = date('Y') . '-' .$_POST['maand']. '-' .$_POST['dag']. ' ' .$_POST['tot'].':00';
 
 			$startDateTime = strtotime($startDateTime);
 			$endDateTime = strtotime($endDateTime);

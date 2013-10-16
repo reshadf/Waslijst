@@ -27,18 +27,9 @@
 						<input type="text" id="naamveld" name="naam" placeholder="Naam invoeren" maxlength="11"><br>
 									<select name="maand" id="maand">
 										<option> - Maand - </option>
-										<option value="01">Januari</option>
-										<option value="02">Febuari</option>
-										<option value="03">Maart</option>
-										<option value="04">April</option>
-										<option value="05">Mei</option>
-										<option value="06">Juni</option>
-										<option value="07">Juli</option>
-										<option value="08">Augustus</option>
-										<option value="09">September</option>
-										<option value="10">Oktober</option>
-										<option value="11">November</option>
-										<option value="12">December</option>
+										<?php
+										echo '<option selected="selected" value="' . date('m') . '">' . date('F') . '</option>';
+										 ?>
 									</select>
 						
 									<select name="dag" id="dag">
