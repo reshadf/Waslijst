@@ -91,7 +91,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 					// Met MySQLi::insert_id() kunnen we het id ophalen, hierbij
 					// moet het id veld wel een auto_increment hebben.
-					echo $resultMessage = 'Uw opdracht is succesvol uitgevoerd. '.$_POST['naam'].' is in het systeem toegevoegd';
+					header('Location: index.php');
 			}
 		}
 
